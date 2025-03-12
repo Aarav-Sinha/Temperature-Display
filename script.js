@@ -1,7 +1,7 @@
 ﻿// Function to fetch and display temperature data
 function getTemperature() {
     let city = document.getElementById('cityInput').value;
-    let apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap or WeatherAPI key
+    let apiKey = f146dbe310cb3f5300bc5fb1eea0ab9f; // Replace with your OpenWeatherMap or WeatherAPI key
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; // For OpenWeatherMap
 
     // Clear any previous results or error messages
